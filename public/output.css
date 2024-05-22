@@ -570,6 +570,10 @@ video {
   left: 0px;
 }
 
+.left-\[0\%\] {
+  left: 0%;
+}
+
 .left-\[32\%\] {
   left: 32%;
 }
@@ -610,48 +614,24 @@ video {
   top: 70%;
 }
 
-.left-\[5\%0\] {
-  left: 5%0;
+.top-\[-100\%\] {
+  top: -100%;
 }
 
-.left-\[50\%\] {
-  left: 50%;
+.top-\[-110\%\] {
+  top: -110%;
 }
 
-.left-\[5\%\] {
-  left: 5%;
+.top-\[110\%\] {
+  top: 110%;
 }
 
-.left-\[2\%\] {
-  left: 2%;
+.left-\[100\%\] {
+  left: 100%;
 }
 
-.left-\[3\%\] {
-  left: 3%;
-}
-
-.left-\[4\%\] {
-  left: 4%;
-}
-
-.left-\[7\%\] {
-  left: 7%;
-}
-
-.left-\[1\.5\%\] {
-  left: 1.5%;
-}
-
-.left-\[1\.7\%\] {
-  left: 1.7%;
-}
-
-.left-\[50\] {
-  left: 50;
-}
-
-.left-\[0\%\] {
-  left: 0%;
+.left-\[-100\%\] {
+  left: -100%;
 }
 
 .z-\[1\] {
@@ -787,6 +767,14 @@ video {
 
 .gap-\[5vw\] {
   gap: 5vw;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 
 .rounded-\[20px\] {

@@ -43,22 +43,22 @@ const tl2 = gsap.timeline({
       start: "0% 95%",
       end: "20% 50%",
       scrub: true,
+      markers: true,
    },
 });
 
-tl2.from(".lemon1", {
+tl2.to(".lemon1", {
    rotate: "-90deg",
-   left: "-100%",
-   top: "110%"
+   left: "0",
+   top: "0",
 }, 'ca');
 
 tl2.to("#orange-cut", {
    left: "40%",
-   top: "200%"
+   top: "200%",
 }, 'ca');
 
 tl2.to("#fanta", {
-   width: "35%",
    top: "215%",
    left: "32.5%",
 }, 'ca');
