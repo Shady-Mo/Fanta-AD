@@ -570,8 +570,8 @@ video {
   left: 0px;
 }
 
-.left-\[0\%\] {
-  left: 0%;
+.left-\[-100\%\] {
+  left: -100%;
 }
 
 .left-\[32\%\] {
@@ -598,6 +598,10 @@ video {
   top: 10%;
 }
 
+.top-\[110\%\] {
+  top: 110%;
+}
+
 .top-\[12\%\] {
   top: 12%;
 }
@@ -612,26 +616,6 @@ video {
 
 .top-\[70\%\] {
   top: 70%;
-}
-
-.top-\[-100\%\] {
-  top: -100%;
-}
-
-.top-\[-110\%\] {
-  top: -110%;
-}
-
-.top-\[110\%\] {
-  top: 110%;
-}
-
-.left-\[100\%\] {
-  left: 100%;
-}
-
-.left-\[-100\%\] {
-  left: -100%;
 }
 
 .z-\[1\] {
@@ -771,10 +755,6 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.overflow-y-hidden {
-  overflow-y: hidden;
 }
 
 .rounded-\[20px\] {
