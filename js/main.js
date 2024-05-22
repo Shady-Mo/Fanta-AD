@@ -53,8 +53,7 @@ tl2.from(".lemon1", {
 }, 'ca');
 
 tl2.to("#orange-cut", {
-   width: "18%",
-   left: "41%",
+   left: "40%",
    top: "200%"
 }, 'ca');
 
