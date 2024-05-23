@@ -22,6 +22,5 @@ Fanta AD web page to improve animation skills using gsap
 - HTML 5
 - CSS 3
 - Tailwind CSS Framework
-- BEM CSS Architecture
 - DOM JS
 - GSAP
